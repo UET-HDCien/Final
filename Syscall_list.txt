@@ -1,0 +1,537 @@
+read 0
+getpid
+ 1
+chdir
+ 2
+setuid
+ 3
+setresuid
+ 4
+rt_sigaction
+ 5
+fork
+ 6
+exit
+ 7
+close
+ 8
+socket
+ 9
+fcntl
+ 10
+connect
+ 11
+getsockopt
+ 12
+rt_sigprocmask
+ 13
+nanosleep
+ 14
+execve
+ 15
+ioctl
+ 16
+getrlimit
+ 17
+setrlimit
+ 18
+brk
+ 19
+prctl
+ 20
+time
+ 21
+wait4
+ 22
+getsockname
+ 23
+open
+ 24
+read
+ 25
+write
+ 26
+setsid
+ 27
+poll
+ 28
+getppid
+ 29
+mmap
+ 30
+mprotect
+ 31
+clone
+ 32
+kill
+ 33
+sigreturn
+ 34
+waitpid
+ 35
+munmap
+ 36
+gettimeofday
+ 37
+fstat64
+ 38
+exit_group
+ 39
+uname
+ 40
+pipe
+ 41
+rt_sigsuspend
+ 42
+send
+ 43
+unlink
+ 44
+times
+ 45
+fstat
+ 46
+getdents64
+ 47
+readlink
+ 48
+bind
+ 49
+listen
+ 50
+setsockopt
+ 51
+cacheflush
+ 52
+access
+ 53
+flock
+ 54
+sendto
+ 55
+recvfrom
+ 56
+recv
+ 57
+lseek
+ 58
+set_thread_area
+ 59
+stat64
+ 60
+fcntl64
+ 61
+fstatat64
+ 62
+mmap2
+ 63
+init_module
+ 64
+geteuid
+ 65
+stat
+ 66
+lstat64
+ 67
+getuid
+ 68
+restart_syscall
+ 69
+rmdir
+ 70
+msgget
+ 71
+msgctl
+ 72
+msgsnd
+ 73
+chroot
+ 74
+statfs64
+ 75
+umask
+ 76
+fchown
+ 77
+fchmod
+ 78
+rename
+ 79
+set_tid_address
+ 80
+set_robust_list
+ 81
+futex
+ 82
+getcwd
+ 83
+mkdir
+ 84
+lstat
+ 85
+chmod
+ 86
+getdents
+ 87
+unlinkat
+ 88
+dup2
+ 89
+fchmodat
+ 90
+getgid
+ 91
+getegid
+ 92
+getpgrp
+ 93
+clock_getres
+ 94
+clock_gettime
+ 95
+recvmsg
+ 96
+fadvise64
+ 97
+sched_setscheduler
+ 98
+sysinfo
+ 99
+utime
+ 100
+mknod
+ 101
+msgrcv
+ 102
+dup
+ 103
+accept
+ 104
+shmget
+ 105
+shmat
+ 106
+openat
+ 107
+getpeername
+ 108
+epoll_create
+ 109
+socketpair
+ 110
+epoll_ctl
+ 111
+epoll_wait
+ 112
+symlink
+ 113
+fsync
+ 114
+ptrace
+ 115
+utimensat
+ 116
+gettid
+ 117
+sched_getaffinity
+ 118
+sigaltstack
+ 119
+readlinkat
+ 120
+epoll_create1
+ 121
+svr4_symlink
+ 122
+svr4_munmap
+ 123
+svr4_exit
+ 124
+getpriority
+ 125
+svr4_syscall
+ 126
+svr4_statfs
+ 127
+syscall_0x96
+ 128
+svr4_access
+ 129
+svr4_gtty
+ 130
+svr4_utime
+ 131
+svr4_setrlimit
+ 132
+svr4_fstatfs
+ 133
+svr4_sync
+ 134
+svr4_setpgrp
+ 135
+svr4_cxenix
+ 136
+svr4_dup
+ 137
+svr4_pipe
+ 138
+svr4_fpathconf
+ 139
+svr4_profil
+ 140
+svr4_plock
+ 141
+svr4_sig
+ 142
+svr4_getgid
+ 143
+svr4_setgid
+ 144
+svr4_msgsys
+ 145
+svr4_sysmips
+ 146
+svr4_sysacct
+ 147
+svr4_shmsys
+ 148
+svr4_ioctl
+ 149
+svr4_semsys
+ 150
+svr4_exch
+ 151
+svr4_uadmin
+ 152
+svr4_vfork
+ 153
+svr4_utssys
+ 154
+svr4_fchdir
+ 155
+svr4_readv
+ 156
+svr4_writev
+ 157
+svr4_xstat
+ 158
+svr4_lxstat
+ 159
+svr4_fxstat
+ 160
+svr4_fsync
+ 161
+svr4_umask
+ 162
+svr4_exece
+ 163
+svr4_chroot
+ 164
+svr4_fcntl
+ 165
+svr4_ulimit
+ 166
+syscall_0x40
+ 167
+syscall_0x41
+ 168
+svr4_xmknod
+ 169
+syscall_0x42
+ 170
+syscall_0x43
+ 171
+svr4_evtrapret
+ 172
+syscall_0x45
+ 173
+svr4_advfs
+ 174
+svr4_unadvfs
+ 175
+svr4_clocal
+ 176
+syscall_0x48
+ 177
+svr4_rfstart
+ 178
+syscall_0x49
+ 179
+svr4_rfstop
+ 180
+svr4_rdebug
+ 181
+syscall_0x4b
+ 182
+svr4_rfsys
+ 183
+svr4_mkdir
+ 184
+svr4_rmdir
+ 185
+svr4_open
+ 186
+svr4_getdents
+ 187
+svr4_libattach
+ 188
+svr4_libdetach
+ 189
+svr4_sysfs
+ 190
+svr4_getmsg
+ 191
+svr4_putmsg
+ 192
+svr4_poll
+ 193
+svr4_lstat
+ 194
+svr4_getrlimit
+ 195
+svr4_readlink
+ 196
+svr4_setgroups
+ 197
+svr4_getgroups
+ 198
+svr4_lchown
+ 199
+svr4_memcntl
+ 200
+svr4_getpmsg
+ 201
+svr4_putpmsg
+ 202
+svr4_rename
+ 203
+svr4_fchmod
+ 204
+svr4_fchown
+ 205
+svr4_sigprocmask
+ 206
+svr4_sigsuspend
+ 207
+svr4_sigaltstack
+ 208
+svr4_sigaction
+ 209
+svr4_sigpending
+ 210
+svr4_setcontext
+ 211
+svr4_evsys
+ 212
+svr4_nice
+ 213
+svr4_fstatvfs
+ 214
+syscall_0x69
+ 215
+syscall_0x3d8
+ 216
+syscall_0x44
+ 217
+svr4_nfssys
+ 218
+svr4_waitid
+ 219
+svr4_exec
+ 220
+svr4_sigsendset
+ 221
+svr4_chdir
+ 222
+svr4_mknod
+ 223
+svr4_chown
+ 224
+svr4_chmod
+ 225
+svr4_sbreak
+ 226
+svr4_getpid
+ 227
+svr4_lseek
+ 228
+svr4_umount
+ 229
+svr4_setuid
+ 230
+svr4_getuid
+ 231
+svr4_kill
+ 232
+svr4_fstat
+ 233
+svr4_alarm
+ 234
+svr4_ptrace
+ 235
+svr4_statvfs
+ 236
+svr4_creat
+ 237
+svr4_pause
+ 238
+svr4_times
+ 239
+svr4_stty
+ 240
+svr4_acancel
+ 241
+svr4_async
+ 242
+svr4_PYRAMID_mpcntl
+ 243
+svr4_unlink
+ 244
+svr4_close
+ 245
+svr4_link
+ 246
+svr4_wait
+ 247
+svr4_gtime
+ 248
+syscall_0x138
+ 249
+svr4_priocntlset
+ 250
+svr4_pathconf
+ 251
+svr4_mincore
+ 252
+svr4_mprotect
+ 253
+svr4_mmap
+ 254
+svr4_stime
+ 255
+svr4_stat
+ 256
+svr4_hrtsys
+ 257
+syscall_0x330
+ 258
+svr4_nuname
+ 259
+sched_yield
+ 260
+tkill
+ 261
+setpriority
+ 262
+ftruncate
+ 263
+pipe2
+ 264
+alarm
+ 265
+shutdown
+ 266
+readv
+ 267
+writev
+ 268
